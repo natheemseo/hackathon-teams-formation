@@ -192,7 +192,7 @@ function SetupScreen({ onCreated }) {
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="mb-12">
           <div className="flex items-center gap-2 text-xs tracking-[0.25em] uppercase text-orange-600 font-bold mb-3">
-            <Zap className="w-3.5 h-3.5" /> Hackathon Draft
+            <Zap className="w-3.5 h-3.5" /> Botpresso Hackathon Season 1
           </div>
           <h1 className="font-serif text-6xl md:text-7xl leading-[0.95] tracking-tight mb-4">
             Let's set up the <span className="italic text-orange-600">team</span>.
@@ -311,7 +311,7 @@ function Dashboard({ sessionId, data, claims, reload }) {
             <div className="flex items-center gap-2 text-xs tracking-[0.25em] uppercase text-orange-600 font-bold mb-2">
               <Trophy className="w-3.5 h-3.5" /> Organizer Dashboard
             </div>
-            <h1 className="font-serif text-5xl leading-none tracking-tight">Live draft status</h1>
+            <h1 className="font-serif text-5xl leading-none tracking-tight">Live team status</h1>
           </div>
           <div className="flex gap-3">
             <button
