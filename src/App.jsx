@@ -195,7 +195,7 @@ function SetupScreen({ onCreated }) {
             <Zap className="w-3.5 h-3.5" /> Hackathon Draft
           </div>
           <h1 className="font-serif text-6xl md:text-7xl leading-[0.95] tracking-tight mb-4">
-            Set up the <span className="italic text-orange-600">draft</span>.
+            Let's set up the <span className="italic text-orange-600">team</span>.
           </h1>
           <p className="text-stone-600 text-lg max-w-2xl">
             Paste your pitches and the people who voted for each. You'll get a link to share with every presenter — they race to claim their team of {teamSize}.
@@ -266,7 +266,7 @@ function SetupScreen({ onCreated }) {
           disabled={creating}
           className="mt-8 px-8 py-4 bg-orange-600 hover:bg-orange-700 disabled:bg-stone-400 text-white font-bold tracking-wide uppercase text-sm transition-all hover:translate-x-1 hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#1c1917] relative"
         >
-          {creating ? "Starting…" : "Start the Draft →"}
+          {creating ? "Starting…" : "Start building the teams →"}
         </button>
       </div>
     </div>
